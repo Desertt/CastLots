@@ -19,14 +19,14 @@ namespace CastLots
         string techName = "";
         int number;
         string[] technoList = {"Html","Css","Javascript","ReactJs","VueJs","TypeScript","Boostrap","Jquery","Ajax","ElasticSearch","Redis","Docker","OOP","EntityFramework","Linq","Postgresql",".NetMVC"
-                ,"ConsoleApp","Web Servis,Api,WCF","Mikroservis Mimarisi","3.Party Component","MSSQL","TSQL","SAPCrystalReport","AWS",".Net Core","Rest Api","SOAP","JSON","XML","Protractor","Selenium","Apium"
+                ,"ConsoleApp","Web Servis,Api,WCF","Mikroservis Mimarisi","3.Party Component","MSSQL","TSQL","SAPCrystalReport","AWS",".Net Core","Rest Api","SOAP","JSON","XML","Protractor","Design Patterns","Algorithms","Selenium","Apium"
         };
 
         private void buttonStart_Click(object sender, EventArgs e)
         {
 
             Random rndNumber = new Random();
-            number = rndNumber.Next(0, 33);
+            number = rndNumber.Next(0, 35);
             
             for (int i = 0; i < technoList.Length; i++)
             {
